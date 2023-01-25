@@ -4,6 +4,15 @@
     <h1>My Cart</h1>
   </header>
 
+  <%# Show empty cart alert if enhanced_cart is empty %>
+  <% if enhanced_cart.count == 0 %>
+    <div class="alert alert-info d-flex justify-content-between align-items-center" role="alert">
+      It looks like your cart is empty! Try adding a product before checking out.
+      <button type="button" class="btn btn-info"><%= link_to "Home", root_path %></button>
+    </div>
+
+  <%# else show products in a table %>
+  <% else %>
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +57,6 @@
       <% end %>
     </div>
   </div>
+  <% end %>
 
 </section>
