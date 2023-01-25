@@ -20,6 +20,8 @@ main section.categories-show {
     }
     article {
       .soldout {
+        display: flex;
+        justify-content: center;
         min-width: 110px;
         background: rgba(224, 14, 14, 0.8);
         border: 1px solid rgba(224, 14, 14, 0.8);

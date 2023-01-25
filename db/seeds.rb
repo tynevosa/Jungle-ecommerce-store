@@ -62,7 +62,7 @@ They can be eaten to relief a sore throat.
 As a defense mechanism the Scented Blade can collapse its flowers when it detects vibrations.
 They rely on animal pollination to reproduce. Once pollinated, they grow fairly large, delicious nuts.",
   image: open_asset('plante_2.jpg'),
-  quantity: 18,
+  quantity: 0,
   price: 24.99
 })
 
@@ -77,7 +77,7 @@ cat1.products.create!({
   As a defense mechanism the Lion Grapevine grows small thorns.
   They rely on wind pollination to reproduce. Once pollinated, they grow small, inedible fruits.",
   image: open_asset('plante_3.jpg'),
-  quantity: 4,
+  quantity: 0,
   price: 34.49
 })
 
