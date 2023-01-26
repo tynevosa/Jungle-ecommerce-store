@@ -5,47 +5,15 @@
   </header>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h4>Thank you for your order <span class="text-success"><%= @order.email %></span>!</h4>
   </div>
   <br>
   <div class="order-summary jumbotron">
     <h4>Order Summary: </h4>
   </div>
 
-  <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Product</th>
-          <th>Description</th>
-          <th>Image</th>
-          <th>Quantity</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-      <%# Product info goes here %>
-        <% @line_items.each do |item| %>
-        <tr>
-          <td><%= item.product.name %></td>
-          <td><%= item.product.description %></td>
-          <td><img src="<%= item.product.image %>" alt="<%= item.product.name %>" style="width: 200px;"></td>
-          <td><%= item.quantity %></td>
-          <td>$<%= item.total_price_cents / 100.0 %></td>
-        </tr>
-        <% end %>
-      </tbody>
-      <tfoot>
-        <tr>
-          <th colspan="3">
-            TOTAL:
-          </th>
-          <th></th>
-          <th>
-            $<%= @order.sum_line_items() / 100.0 %>
-          </th>
-        </tr>
-      </tfoot>
-    </table>
+  <%# Render order summary table %>
+  <%= render "order" %>  
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 
