@@ -63,6 +63,9 @@
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
           My Cart (<%= cart.size %>) <% end %>
         </li>
+        <li class="nav-item">
+          <%= link_to "About", about_path, class: 'nav-link' %>
+        </li>
       </ul>
     </div>
   </div>
