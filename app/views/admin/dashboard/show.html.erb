@@ -1,2 +1,21 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+
+<%# Product count card %>
+<div class="d-flex justify-content-center gap-5 mt-5">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body d-flex flex-column justify-content-center">
+      <h5 class="card-title">Total Products</h5>
+      <h2 class="card-subtitle mb-2 text-muted text-center"><%= @product_count %></h6>
+      <%= link_to "All Products", admin_products_path, class: 'btn btn-lg btn-primary' %>
+    </div>
+  </div>
+
+  <%# Category count card %>
+  <div class="card" style="width: 18rem;">
+    <div class="card-body d-flex flex-column">
+      <h5 class="card-title">Total Categories</h5>
+      <h2 class="card-subtitle mb-2 text-muted text-center"><%= @category_count %></h6>
+      <%= link_to "Home", root_path, class: 'btn btn-lg btn-primary' %>
+    </div>
+  </div>
+</div>
+
