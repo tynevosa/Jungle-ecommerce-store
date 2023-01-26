@@ -5,8 +5,15 @@
   </header>
 
   <div class="order-summary jumbotron">
-    <h4>Thank you for your order!</h4>
+    <h4>Thank you for your order <span class="text-success"><%= @order.email %></span>!</h4>
   </div>
+  <br>
+  <div class="order-summary jumbotron">
+    <h4>Order Summary: </h4>
+  </div>
+
+  <%# Render order summary table %>
+  <%= render "order" %>  
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 
