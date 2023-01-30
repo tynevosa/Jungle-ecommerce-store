@@ -144,6 +144,10 @@ GEM
       money (~> 6.13)
       railties (>= 3.0)
     msgpack (1.5.1)
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
     nio4r (2.5.8)
     nokogiri (1.13.4-arm64-darwin)
       racc (~> 1.4)
@@ -249,6 +253,7 @@ GEM
     stripe (5.53.0)
     thor (1.2.1)
     tilt (2.0.10)
+    timeout (0.3.1)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -293,12 +298,13 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.3)
   money-rails
+  net-smtp
   pg
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (= 6.1.5.1)
   rmagick
-  rspec-rails
+  rspec-rails (~> 5.1)
   sass-rails (>= 6)
   sdoc
   selenium-webdriver
