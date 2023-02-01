@@ -1,6 +1,6 @@
 // Product Page - Cypress testing
 
-describe('jungle home page', () => {
+describe('jungle product page', () => {
   
   // visit the home page.
   it('should visit the home page', () => {
@@ -17,6 +17,4 @@ describe('jungle home page', () => {
   it("validates that you are on the product details (show) page", () => {
     cy.get('[data-cy="product-name"]').should('have.text', 'Scented Blade');
   });
-
-
 });

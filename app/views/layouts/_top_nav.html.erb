@@ -60,8 +60,8 @@
             <li><%= link_to 'Categories', [:admin, :categories], class: "nav-link" %></li>
           </ul>
         </li>
-        <li class="nav-item end-0">
-          <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
+        <li class="nav-item end-0" data-cy="cart">
+          <%= link_to cart_path, :'data-cy' => 'cart',  class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
           My Cart (<%= cart.size %>) <% end %>
         </li>
         <li class="nav-item">
