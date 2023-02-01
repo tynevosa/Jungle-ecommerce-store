@@ -1,9 +1,8 @@
 // Home Page - Cypress testing
-// import cy from 'cypress';
 
 describe('jungle home page', () => {
   
-  //run this before starting each test.
+  // visit the home page.
   it('should visit the home page', () => {
     cy.visit('/');
   });
