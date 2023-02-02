@@ -117,7 +117,7 @@ bin/rails s -b 0.0.0.0
 
 ## Database
 
-If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user.
+If Rails is complaining about authentication to the database, uncomment the user and password fields from `config/database.yml` in the development and test sections, and replace if necessary the user and password `development` to an existing database user. Application tested using Rspec and Cypress.
 
 ## Stripe Testing
 
