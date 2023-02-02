@@ -95,22 +95,22 @@ cd Jungle
 ```
 bundle install
 ```
-### Reset and seed the database
+4. Reset and seed the database
 ```
 bin/rails db:reset
 ```
-### Sign-up for a stripe acount and add your credentials to the .env file
+5. Sign-up for a stripe acount and add your credentials to the .env file
 ```
 STRIPE_PUBLISHABLE_KEY=your_key
 STRIPE_SECRET_KEY=your_secret_key
 ```
-### Also, set the admin username and password in .env to access the admin panel
+6. Also, set the admin username and password in .env to access the admin panel
 ```
 USER_NAME=your_admin_username
 PASSWORD=your_password
 ```
 
-### Start the application from the root directory
+7. Start the application from the root directory
 ```
 bin/rails s -b 0.0.0.0
 ```
