@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About Jungle
 
-<p>Jungle is a plant themed E-commerce web application built with Ruby on Rails, Bootstrap CSS, PostgreSQL, and Stripe. The application covers some of the most common features you would expect from an e-commerce site, including user authentication, product and category management handled through a password preotected admin panel, along with a checkout powered by Stripe.
+<p>Jungle is a plant themed E-commerce web application built with Ruby on Rails, Bootstrap CSS, PostgreSQL, and Stripe. The application covers some of the most common features you would expect from an e-commerce site, including user authentication, product and category management handled through a password protected admin panel, along with a checkout powered by Stripe.
 </p>
 
 !["Exmaple image of jungle app"](https://github.com/Ethansteip/Jungle/blob/master/public/images/Screen%20Shot%202023-02-01%20at%204.34.32%20PM.png?raw=true)
