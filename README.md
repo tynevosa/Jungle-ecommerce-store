@@ -3,9 +3,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/tynevosa/Jungle">
-    <img src="https://github.com/tynevosa/Jungle/blob/master/public/images/Jungle%20Logo.png?raw=true" alt="The jungle ecommerce logo" width="300" style="border-radius:10px;">
-  </a> -->
+  <a href="https://github.com/tynevosa/Jungle-ecommerce-store">
+    <img src="https://github.com/tynevosa/Jungle-ecommerce-store/public/images/Jungle%20Logo.png?raw=true" alt="The jungle ecommerce logo" width="300" style="border-radius:10px;">
+  </a>
 
 <h2 align="center">Jungle - E-commerce</h2>
 
@@ -47,18 +47,18 @@
 <p>Jungle is a plant themed E-commerce web application built with Ruby on Rails, Bootstrap CSS, PostgreSQL, and Stripe. The application covers some of the most common features you would expect from an e-commerce site, including user authentication, product and category management handled through a password protected admin panel, along with a checkout powered by Stripe.
 </p>
 
-<!-- !["Exmaple image of jungle app"](https://github.com/tynevosa/Jungle/blob/master/public/images/Screen%20Shot%202023-02-01%20at%204.34.32%20PM.png?raw=true)
+!["Exmaple image of jungle app"](https://github.com/tynevosa/Jungle-ecommerce-store/public/images/Screen%20Shot%202023-02-01%20at%204.34.32%20PM.png?raw=true)
 <br>
 <br>
-!["Jungle products"](https://github.com/tynevosa/Jungle/blob/master/public/images/Screen%20Shot%202023-02-01%20at%204.34.48%20PM.png?raw=true)
+!["Jungle products"](https://github.com/tynevosa/Jungle-ecommerce-store/public/images/Screen%20Shot%202023-02-01%20at%204.34.48%20PM.png?raw=true)
 <br>
 <br>
-!["Product details page"](https://github.com/tynevosa/Jungle/blob/master/public/images/Screen%20Shot%202023-02-01%20at%204.35.31%20PM.png?raw=true)
+!["Product details page"](https://github.com/tynevosa/Jungle-ecommerce-store/public/images/Screen%20Shot%202023-02-01%20at%204.35.31%20PM.png?raw=true)
 <br>
 <br>
-!["Cart details pages"](https://github.com/tynevosa/Jungle/blob/master/public/images/Screen%20Shot%202023-02-01%20at%204.35.47%20PM.png?raw=true)
+!["Cart details pages"](https://github.com/tynevosa/Jungle-ecommerce-store/public/images/Screen%20Shot%202023-02-01%20at%204.35.47%20PM.png?raw=true)
 <br>
-<br> -->
+<br>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
