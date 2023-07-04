@@ -5,9 +5,9 @@ RSpec.describe User, type: :model do
   # pre-set user attributes before each test
   before(:each) do
     @user_attributes = {
-      first_name: "Ethan",
-      last_name: "Steip",
-      email: "etha@aol.com",
+      first_name: "Michael",
+      last_name: "Edwards",
+      email: "michael.edy623@gmail.com",
       password: "somepassword",
       password_confirmation: "somepassword",
   }
@@ -67,8 +67,8 @@ RSpec.describe User, type: :model do
     end
 
     it "authenticates a user even if email case does no match the db" do
-      @user = User.create(@user_attributes.merge(:email => "EtHaN@AoL.CoM"))
-      expect(@user.email).to eql("ethan@aol.com")
+      @user = User.create(@user_attributes.merge(:email => "michael.edy623@gmail.com"))
+      expect(@user.email).to eql("michael.edy623@gmail.com")
     end
   end
 
@@ -90,8 +90,8 @@ RSpec.describe User, type: :model do
   describe '.strip_whitespace' do
 
     it "creates a valid user even if there is whitespace in the email" do
-      @user = User.create(@user_attributes.merge(:email => "  ethan@aol.com  "))
-      expect(@user.email).to eql("ethan@aol.com")
+      @user = User.create(@user_attributes.merge(:email => "  michael.edy623@gmail.com  "))
+      expect(@user.email).to eql("michael.edy623@gmail.com")
     end
   end
 end
